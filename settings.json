@@ -1,0 +1,236 @@
+{
+  "workbench.iconTheme": "vscode-great-icons",
+  "editor.fontFamily": "'Cascadia Code PL', 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "markdown.preview.fontSize": 16,
+
+  "editor.fontLigatures": true,
+  "jupyter.askForKernelRestart": false,
+  "cSpell.userWords": [
+    "numpy",
+    "pyplot",
+    "scipy",
+    "semilogx",
+    "stod",
+    "stof",
+    "stoi"
+  ],
+  "explorer.confirmDelete": false,
+  "editor.tabSize": 3,
+  "files.trimTrailingWhitespace": true,
+  "editor.largeFileOptimizations": false,
+  "workbench.editor.enablePreview": true,
+  "window.title": "${activeEditorMedium}${separator}${rootPath}",
+  "[jsonc]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[shellscript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.minimap.maxColumn": 80,
+    "editor.rulers": [80],
+    "editor.defaultFormatter": "foxundermoon.shell-format",
+    "editor.tabSize": 2,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "[html]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "mohd-akram.vscode-html-format",
+    "editor.tabSize": 2,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.defaultFormatter": "aeschli.vscode-css-formatter",
+    "editor.tabSize": 2,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "[cpp]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.minimap.maxColumn": 80,
+    "editor.defaultFormatter": "xaver.clang-format",
+    "editor.tabSize": 2,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "[c]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.minimap.maxColumn": 80,
+    "editor.defaultFormatter": "xaver.clang-format",
+    "editor.tabSize": 2,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.minimap.maxColumn": 80,
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.tabSize": 4,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+
+  "editor.minimap.showSlider": "always",
+  "zenMode.hideLineNumbers": false,
+  "explorer.compactFolders": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "workbench.colorTheme": "Material Theme Darker",
+  "editor.tokenColorCustomizations": {
+    "comments": "#2ba113"
+  },
+  "workbench.colorCustomizations": {
+    "terminal.ansiGreen": "#02aa56",
+    "terminal.ansiBrightGreen": "#02aa56",
+    "editorLineNumber.foreground": "#16bdc9",
+    "editorLineNumber.activeForeground": "#ff8800"
+  },
+  "liveshare.presence": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.semanticTokenColorCustomizations": null,
+  "highlight.regexes": {
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#ffcc00",
+          "backgroundColor": "#ffcc00",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#ffcc00",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#cc0000",
+          "backgroundColor": "#cc0000",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#cc0000",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#00ccff",
+          "backgroundColor": "#00ccff",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#00ccff",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#cc00cc",
+          "backgroundColor": "#cc00cc",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#cc00cc",
+          "color": "#1f1f1f"
+        }
+      ]
+    }
+  },
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, IndentWidth: 2, ColumnLimit: 80 }",
+  "settingsSync.ignoredSettings": ["-C_Cpp.clang_format_fallbackStyle"],
+  "clang-format.language.objective-cpp.fallbackStyle": "{ BasedOnStyle: LLVM, IndentWidth: 2, ColumnLimit: 80 }",
+  "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, IndentWidth: 2, ColumnLimit: 80 }",
+  "todo-tree.highlights.enabled": true,
+  "todo-tree.highlights.customHighlight": {
+    "BUG": {
+      "icon": "bug"
+    },
+    "FIXME": {
+      "icon": "flame"
+    },
+    "TODO": {
+      "icon": "alert",
+      "type": "text",
+      "foreground": "black",
+      "background": "orange"
+    }
+  },
+  "C_Cpp.intelliSenseEngineFallback": "Enabled",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "files.exclude": {
+    "**/dist/*": true,
+    "**/node_modules/*": true,
+    "**/venv/*": true
+  },
+  "zenMode.hideStatusBar": false,
+  "vim.useSystemClipboard": true,
+  "editor.lineNumbers": "relative",
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false
+}
